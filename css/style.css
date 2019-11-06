@@ -102,9 +102,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.menu{
+
+.menu {
     margin-top: 20px;
 }
+
 .menu li {
     display: inline-block;
 }
@@ -142,21 +144,24 @@ body {
     z-index: 2;
     outline: none;
 }
-#sl1{
+
+#sl1 {
     background-image: url(../img/bg-img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 800px;
 }
-#sl2{
+
+#sl2 {
     background-image: url(../img/bg-img/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 800px;
 }
-#sl3{
+
+#sl3 {
     background-image: url(../img/bg-img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,29 +169,30 @@ body {
     min-height: 800px;
 }
 
-.slider__item-content{
+.slider__item-content {
     text-align: left;
-    color:#fff;
-    float:left;
+    color: #fff;
+    float: left;
     padding: 20px 35px 20px 35px;
     height: 100%;
     width: 500px;
     margin: 300px 100px;
-    background-color: rgba(21, 21, 21, 0.7); /* Цвет фона и значение прозрачности */
-    border-left: 5px solid #2e7d32 
+    background-color: rgba(21, 21, 21, 0.7);
+    /* Цвет фона и значение прозрачности */
+    border-left: 5px solid #2e7d32
 }
-.slider__item-content .default-btn,
-.recipes__item .default-btn{
+
+.slider__item-content .default-btn, .recipes__item .default-btn {
     margin-top: 20px;
-    color:#fff;
+    color: #fff;
     transition: all .1s;
 }
-.slider__item-content .default-btn:hover,
-.recipes__item .default-btn:hover{
+
+.slider__item-content .default-btn:hover, .recipes__item .default-btn:hover {
     background-color: #2E7D32;
 }
 
-.slider__title,.recipes__title{
+.slider__title, .recipes__title {
     text-transform: uppercase;
     font-size: 35px;
     line-height: 28px;
@@ -196,14 +202,13 @@ body {
     margin-bottom: 22px;
 }
 
-.slider__text,.recipes__text{
+.slider__text, .recipes__text {
     line-height: 24px;
     font-size: 18px;
     color: #d3d3d3;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 
 .slick-btn {
     position: absolute;
@@ -217,9 +222,9 @@ body {
     background-color: transparent;
     transition: all .7s;
 }
-.slick-btn:hover{
-    background-color: #2E7D32;
 
+.slick-btn:hover {
+    background-color: #2E7D32;
 }
 
 .slick-btn::before {
@@ -247,35 +252,88 @@ body {
 .slick-prev {
     left: 5px;
 }
-.example_recipes__inner{
+
+.example_recipes__inner {
     display: flex;
     justify-content: space-between;
 }
-.recipes__item{
+
+.recipes__item {
     position: relative;
-    color:#fff;
+    color: #fff;
     text-align: left;
     font-family: 'Raleway', sans-serif;
     height: 100%;
     width: 550px;
     margin-top: 40px;
     padding: 40px 50px 20px 50px;
-    
 }
- 
-#exprc1{
+
+#exprc1 {
     background-image: url(../img/bg-img/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100%;
     margin-left: 10px;
- }
-#exprc2{
+}
+
+#exprc2 {
     background-image: url(../img/bg-img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100%;
     margin-right: 10px;
- }
+}
+
+.best-resp__section_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.best__receipes-inner {
+    text-emphasis: center;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.best__recepies-item {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.best__recepies-image img {
+    width: 350px;
+    height: 330px;
+    border-bottom: 3px solid #2E7D32
+}
+
+.best__recepies-title a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 33%;
+    padding-top: 10px;
+    color: #202020;
+    transition: all .7s;
+}
+
+.best__recepies-title a:hover {
+    color: #2E7D32;
+}
+
+.best__recepies-rating {
+    padding-left: 33%;
+    padding-top: 10px;
+}
