@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__top {
+    border-bottom: 1px solid #808080;
+    height: 80px;
+}
+
+.header__content {
+    padding: 34px 0px 23px;
+}
+
+.header__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #808080;
+    position: relative;
+    top: 25px;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+.header__contacts:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header__links {
+    color: #808080;
+    position: relative;
+    top: 25px;
+    float: right;
+    padding: 0px 0px 2px 60px;
+}
+
+.header__contacts a:hover {
+    color: #00ca10;
+    transition: all .3s;
+}
+
+#facebook::before {
+    content: "\ea91";
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#twitter::before {
+    content: "\ea96";
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#pinterest::before {
+    content: "\ead1";
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#linkedIn::before {
+    content: "\eac9";
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#mail::before {
+    content: "\e945";
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.header__content-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-top: 20px;
+}
+.menu li {
+    display: inline-block;
+}
+
+.menu li+li {
+    padding-left: 15px;
+}
+
+.menu a {
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0px 16px;
+    transition: all .1s;
+    /*замедление для анимации*/
+}
+
+.menu a:hover {
+    background-color: #66BB6A;
+    border-bottom: 3px solid #2E7D32;
+}
