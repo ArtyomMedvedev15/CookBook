@@ -16,5 +16,13 @@ $(function(){
         readOnly:true
       });
     }
+    $(".gluten__rating").rateYo({
+            normalFill: "#A0A0A0",
+            starWidth:"15px",
+            numStars:5,
+            rating:"80%",
+            readOnly:true
+    });
+        
       
  });
