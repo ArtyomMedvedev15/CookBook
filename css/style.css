@@ -188,7 +188,7 @@ body {
     transition: all .1s;
 }
 
-.slider__item-content .default-btn:hover, .recipes__item .default-btn:hover, .gluten__inner .default-btn:hover{
+.slider__item-content .default-btn:hover, .recipes__item .default-btn:hover, .gluten__inner .default-btn:hover, .feedback__item-form-inner .default-btn:hover {
     background-color: #2E7D32;
 }
 
@@ -329,8 +329,7 @@ body {
     transition: all .7s;
 }
 
-.best__recepies-title a:hover,
-.gluten__title a:hover {
+.best__recepies-title a:hover, .gluten__title a:hover {
     color: #2E7D32;
 }
 
@@ -352,55 +351,64 @@ body {
     height: 675px;
     width: 100%;
 }
-.gluten__tittle{
+
+.gluten__tittle {
     font-size: 70px;
     font-family: 'Raleway', sans-serif;
-    color:#fff;
+    color: #fff;
     line-height: 24px;
     font-weight: 500;
     text-align: center;
     padding-top: 10%;
- }
- .gluten__text{
-     font-size: 19px;
+}
+
+.gluten__text {
+    font-size: 19px;
     font-family: 'Raleway', sans-serif;
-    color:#fff;
+    color: #fff;
     line-height: 24px;
     font-weight: 500;
     text-align: center;
     padding-top: 5%;
     max-width: 100%;
- }
-.gluten__inner .default-btn{
+}
+
+.gluten__inner .default-btn {
     margin-left: 40%;
 }
 
-.gluten__inner-receipies{
+.gluten__inner-receipies {
     margin-top: 80px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
-.gluten__item{
+
+.gluten__item {
     width: 300px;
     margin-bottom: 40px;
 }
-.gluten__image{
+
+.gluten__image {
     float: left;
 }
-.gluten__image img{
+
+.gluten__image img {
     width: 90%;
     height: 100%;
 }
-.glute__date{
+
+.glute__date {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
-    color: #2E7D32;;
+    color: #2E7D32;
+    ;
     line-height: 18px;
     font-weight: 500;
     padding-left: 5px;
 }
-.gluten__title a{
+
+.gluten__title a {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     color: #202020;
@@ -409,18 +417,128 @@ body {
     padding-top: 5px;
     transition: all .7s;
 }
-.gluten__rating{
+
+.gluten__rating {
     padding-top: 10px;
     padding-left: 110px;
-  }
-.gluten__comments{
+}
+
+.gluten__comments {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
-    color: #808080;;
+    color: #808080;
     line-height: 18px;
     font-weight: 500;
     padding-left: 5px;
     padding-top: 8px;
 }
 
+.feedback__section {
+    margin-top: 40px;
+}
 
+.feedback__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback__item-quote p {
+    color: #2e7d32;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, cursive;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-left: 45%;
+}
+
+.feedback__item-quote {
+    height: 462px;
+    width: 350px;
+    border: 10px solid #14912f;
+}
+
+.feedback__item-text {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+    line-height: 30px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.feedback__item-author {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.feedback__item-date {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #2e7d31;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.feedback__item-form {
+    height: 462px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.feedback__item-form-inner .default-btn {
+    text-align: center;
+    color: #fff;
+    width: 320px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-top: 15px;
+    background-color: #14912f;
+    transition: all .7s;
+}
+
+.feedback__item-form-inner {
+    width: 350px;
+    height: 370px;
+    background-image: url(../img/bg-img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.feedback__item-form-inner input {
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 320px;
+    height: 60px;
+    border: 0px;
+    border-left: 4px solid #14912f;
+}
+
+.feedback__item-form-text {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 18px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.feedback__item-form-title {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #202121;
+    font-weight: 700;
+    margin-bottom: 69px;
+ }
