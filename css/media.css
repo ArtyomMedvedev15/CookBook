@@ -1,0 +1,31 @@
+@media (max-width: 799px) {
+   
+    .toggle-button {
+        display: block!important;
+        margin-top: 15px;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+@media (max-width: 799px),screen and (max-height: 376px) {
+   
+    .toggle-button {
+        display: block!important;
+        margin-top: 15px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+}
+@media (min-width: 800px) {
+    .menu-wrap{
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+}
