@@ -1,0 +1,628 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__top {
+    border-bottom: 1px solid #808080;
+    height: 80px;
+}
+
+.header__content {
+    padding: 34px 0px 23px;
+}
+
+.header__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #808080;
+    position: relative;
+    top: 25px;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+.header__contacts:after,
+.footer__contact:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header__links {
+    color: #808080;
+    position: relative;
+    top: 25px;
+    float: right;
+    padding: 0px 0px 2px 60px;
+}
+
+.header__contacts a:hover,
+.footer__contact a:hover {
+    color: #00ca10;
+    transition: all .3s;
+}
+
+#facebook::before {
+    content: "\ea91";
+    font-family: 'icomoon';
+    font-size: 10px;
+    line-height: 20px;
+}
+
+#twitter::before {
+    content: "\ea96";
+    font-family: 'icomoon';
+    font-size: 10px;
+    line-height: 20px;
+}
+
+#pinterest::before {
+    content: "\ead1";
+    font-family: 'icomoon';
+    font-size: 10px;
+    line-height: 20px;
+}
+
+#linkedIn::before {
+    content: "\eac9";
+    font-family: 'icomoon';
+    font-size: 10x;
+    line-height: 20px;
+}
+
+#mail::before {
+    content: "\e945";
+    font-family: 'icomoon';
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.header__content-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li+li {
+    padding-left: 15px;
+}
+
+.menu a {
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0px 16px;
+    transition: all .1s;
+    /*замедление для анимации*/
+}
+
+.menu a:hover {
+    background-color: #66BB6A;
+    border-bottom: 3px solid #2E7D32;
+}
+
+.default-btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202120;
+    font-weight: 500;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 3px solid #2E7D32;
+    border-right-width: 20px;
+    position: relative;
+    z-index: 2;
+    outline: none;
+}
+
+#sl1 {
+    background-image: url(../img/bg-img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+
+#sl2 {
+    background-image: url(../img/bg-img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+
+#sl3 {
+    background-image: url(../img/bg-img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+
+.slider__item-content {
+    text-align: left;
+    color: #fff;
+    float: left;
+    padding: 20px 35px 20px 35px;
+    height: 100%;
+    width: 500px;
+    margin: 300px 100px;
+    background-color: rgba(21, 21, 21, 0.7);
+    /* Цвет фона и значение прозрачности */
+    border-left: 5px solid #2e7d32
+}
+
+.slider__item-content .default-btn, .recipes__item .default-btn, .gluten__inner .default-btn {
+    margin-top: 20px;
+    color: #fff;
+    transition: all .1s;
+}
+
+.slider__item-content .default-btn:hover, .recipes__item .default-btn:hover, .gluten__inner .default-btn:hover, .feedback__item-form-inner .default-btn:hover {
+    background-color: #2E7D32;
+}
+
+.slider__title, .recipes__title {
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 22px;
+}
+
+.slider__text, .recipes__text {
+    line-height: 24px;
+    font-size: 18px;
+    color: #d3d3d3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    width: 60px;
+    height: 60px;
+    border: 2px solid#2E7D32;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    transition: all .7s;
+}
+
+.slick-btn:hover {
+    background-color: #2E7D32;
+}
+
+.slick-btn::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    font-size: 22px;
+    color: #fff;
+}
+
+.slick-next::before {
+    content: "\e900";
+}
+
+.slick-next {
+    right: 5px;
+}
+
+.slick-prev::before {
+    content: "\e901";
+}
+
+.slick-prev {
+    left: 5px;
+}
+
+.example_recipes__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipes__item {
+    position: relative;
+    color: #fff;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 550px;
+    margin-top: 40px;
+    padding: 40px 50px 20px 50px;
+}
+
+#exprc1 {
+    background-image: url(../img/bg-img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    margin-left: 10px;
+}
+
+#exprc2 {
+    background-image: url(../img/bg-img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    margin-right: 10px;
+}
+
+.best-resp__section_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.best__receipes-inner {
+    text-emphasis: center;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.best__recepies-item {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.best__recepies-image img {
+    width: 350px;
+    height: 330px;
+    border-bottom: 3px solid #2E7D32
+}
+
+.best__recepies-title a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 33%;
+    padding-top: 10px;
+    color: #202020;
+    transition: all .7s;
+}
+
+.best__recepies-title a:hover, .gluten__title a:hover {
+    color: #2E7D32;
+}
+
+.best__recepies-rating {
+    padding-left: 33%;
+    padding-top: 10px;
+}
+
+.gluten__free {
+    margin-top: 30px;
+}
+
+.gluten__inner {
+    background-image: url(../img/bg-img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed, fixed;
+    height: 675px;
+    width: 100%;
+}
+
+.gluten__tittle {
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.gluten__text {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5%;
+    max-width: 100%;
+}
+
+.gluten__inner .default-btn {
+    margin-left: 40%;
+}
+
+.gluten__inner-receipies {
+    margin-top: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gluten__item {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.gluten__image {
+    float: left;
+}
+
+.gluten__image img {
+    width: 90%;
+    height: 100%;
+}
+
+.glute__date {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #2E7D32;
+    ;
+    line-height: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.gluten__title a {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    line-height: 18px;
+    font-weight: 800;
+    padding-top: 5px;
+    transition: all .7s;
+}
+
+.gluten__rating {
+    padding-top: 10px;
+    padding-left: 110px;
+}
+
+.gluten__comments {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #808080;
+    line-height: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+.feedback__section {
+    margin-top: 40px;
+    border-bottom: 2px solid#808080
+}
+
+.feedback__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.feedback__item-quote p {
+    color: #2e7d32;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, cursive;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-left: 45%;
+}
+
+.feedback__item-quote {
+    height: 462px;
+    width: 350px;
+    border: 10px solid #14912f;
+}
+
+.feedback__item-text {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+    line-height: 30px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.feedback__item-author {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.feedback__item-date {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #2e7d31;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.feedback__item-form {
+    height: 462px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.feedback__item-form-inner .default-btn {
+    text-align: center;
+    color: #fff;
+    width: 320px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-top: 15px;
+    background-color: #14912f;
+    transition: all .7s;
+}
+
+.feedback__item-form-inner {
+    width: 350px;
+    height: 370px;
+    background-image: url(../img/bg-img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.feedback__item-form-inner input {
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 320px;
+    height: 60px;
+    border: 0px;
+    border-left: 4px solid #14912f;
+}
+
+.feedback__item-form-text {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 18px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.feedback__item-form-title {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #202121;
+    font-weight: 700;
+    margin-bottom: 69px;
+}
+
+.footer {
+    margin-top: 70px;
+}
+
+.footer__top-images{
+margin-left: 50px; 
+overflow: hidden;
+}
+ 
+
+.insta__foll{
+    position: relative;
+    transition-duration: 2s
+}
+ 
+.block{
+    position:absolute;
+    height: 195px;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(20,21,21, 0.7);
+    display:none;
+    transition: all .7s;
+
+}
+.block::before{
+    content:"\e902";
+    font-family: 'icomoon';
+}
+.insta__foll:hover .block{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 28px;
+    color: #fff;
+    display:block;
+}
+ 
+.footer_top-title {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    line-height: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    transition: all .7s;
+}
+.footer .container{
+    max-width: 1300px;
+}
+.footer__contact{
+    float:left;
+ }
+ .footer__logo img{
+      margin-left: 60px;
+ }
+ #toTop {
+    width:50px;
+    height: 50px;
+    border:1px solid #14912f;
+    background:#14912f;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px;
+    right:30px;
+    padding-top: 15px;
+    cursor:pointer;
+    display:none;
+    color:#fff;
+    font-family:verdana;
+    font-size:15px;
+    font-family: 'Raleway', sans-serif;
+
+}
+#toTop:hover{
+    background: #2E7D32;
+}
