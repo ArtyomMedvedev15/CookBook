@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -26,11 +26,11 @@ body {
 
 .header__top {
     border-bottom: 1px solid #808080;
-    height: 80px;
+    height: 60px;
 }
 
 .header__content {
-    padding: 34px 0px 23px;
+    padding: 5px 0px 23px;
 }
 
 .header__text {
@@ -38,7 +38,7 @@ body {
     font-size: 18px;
     color: #808080;
     position: relative;
-    top: 25px;
+    top: 20px;
     pointer-events: none;
     cursor: default;
     text-decoration: none;
@@ -54,7 +54,7 @@ body {
 .header__links {
     color: #808080;
     position: relative;
-    top: 25px;
+    top: 20px;
     float: right;
     padding: 0px 0px 2px 60px;
 }
@@ -89,7 +89,7 @@ body {
 #linkedIn::before {
     content: "\eac9";
     font-family: 'icomoon';
-    font-size: 10x;
+    font-size: 10px;
     line-height: 20px;
 }
 
@@ -145,6 +145,11 @@ body {
     position: relative;
     z-index: 2;
     outline: none;
+}
+
+.slider{
+    position: relative;
+    bottom: 40px;
 }
 
 #sl1 {
