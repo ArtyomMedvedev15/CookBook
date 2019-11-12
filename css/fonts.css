@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?ol0g7e');
-  src:  url('../fonts/icomoon.eot?ol0g7e#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?ol0g7e') format('truetype'),
-    url('../fonts/icomoon.woff?ol0g7e') format('woff'),
-    url('../fonts/icomoon.svg?ol0g7e#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?v7iojl');
+  src:  url('../fonts/icomoon.eot?v7iojl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?v7iojl') format('truetype'),
+    url('../fonts/icomoon.woff?v7iojl') format('woff'),
+    url('../fonts/icomoon.svg?v7iojl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e902";
+.icon-menu:before {
+  content: "\e903";
 }
 .icon-chevron-thin-left:before {
   content: "\e901";
+}
+.icon-chevron-thin-right:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e902";
 }
 .icon-chevron-thin-right:before {
   content: "\e900";
