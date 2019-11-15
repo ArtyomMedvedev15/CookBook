@@ -129,6 +129,7 @@ body {
 
 .menu a:hover {
     background-color: #66BB6A;
+    color: #fff;
     border-bottom: 3px solid #2E7D32;
 }
 
@@ -367,7 +368,8 @@ body {
 .slider__item-content .default-btn:hover,
 .recipes__item .default-btn:hover,
 .gluten__inner .default-btn:hover,
-.feedback__item-form-inner .default-btn:hover {
+.feedback__item-form-inner .default-btn:hover,
+.contact-form__inner button:hover {
     background-color: #2E7D32;
 }
 
@@ -815,4 +817,244 @@ body {
 
 #toTop:hover {
     background: #2E7D32;
+}
+
+.about__us-logo {
+    position: relative;
+    background-image: url(../img/bg-img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 205px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+.about__us-text {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    padding-top: 90px;
+}
+
+.about__us-describe {
+    margin-top: 30px;
+}
+
+.about__us-desc-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    margin-top: 45px;
+    padding-bottom: 35px;
+}
+
+.about__us-desc-text {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    line-height: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-top: 35px;
+}
+
+.about__us-desc-addtext {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #929191;
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.counter__inner-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#salad {
+    background-image: url(../img/core-img/salad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+#burger {
+    background-image: url(../img/core-img/hamburger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 66px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+#meat {
+    background-image: url(../img/core-img/rib.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+#cake {
+    background-image: url(../img/core-img/pancake.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 82px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.count__receipt {
+    margin-top: 78px;
+}
+
+#countReceipt,
+#countBurger,
+#countMeat {
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Raleway', sans-serif;
+    color: #40ba37;
+    line-height: 25px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+#countDesert {
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Raleway', sans-serif;
+    color: #40ba37;
+    line-height: 25px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.counter__item-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    line-height: 25px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.about__us-contact_form {
+    margin-top: 50px;
+}
+
+.logo_desc-form {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.logo_desc-form img {
+    width: 100%;
+    height: 100%;
+}
+
+.text_desc-form {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #929191;
+    line-height: 31px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.contacts-form {
+    padding-top: 30px;
+    margin-left: 80px;
+}
+
+.contact-form__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form__inner input,
+.contact-form__inner textarea {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    outline: none;
+    padding: 0px 10px;
+    transition: border-left 0.6s linear;
+}
+
+.contact-form__inner textarea {
+    padding-top: 15px;
+    outline: none;
+    resize: none;
+    border: 1px solid #e6e6e6;
+}
+
+.contact-form__inner input {
+    margin-bottom: 8px;
+    outline: none;
+    height: 52px;
+    border: 1px solid #e6e6e6;
+    padding: 0px 10px;
+}
+
+.contact-form__inner form {
+    width: 90%;
+}
+
+#Name,
+#Email {
+    width: 49%;
+}
+
+#Email {
+    margin-left: 16px;
+}
+
+.contact-form__inner input:focus,
+.contact-form__inner textarea:focus {
+    border-left: 2px solid #2e7d32;
+}
+
+.contact-form__inner button {
+    display: block;
+    margin: 0 auto;
+    top: 20px;
+    background-color: transparent;
+    color: #282828;
+    transition: all .1s;
+    width: 160px;
+    height: 60px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-form__inner button:hover {
+    background-color: #2E7D32;
+    color: #fff;
 }
