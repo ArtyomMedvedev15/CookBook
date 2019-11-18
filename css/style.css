@@ -375,6 +375,7 @@ body {
 
 .slider__title,
 .recipes__title {
+    position: relative;
     text-transform: uppercase;
     font-size: 35px;
     line-height: 28px;
@@ -386,6 +387,7 @@ body {
 
 .slider__text,
 .recipes__text {
+    position: relative;
     line-height: 24px;
     font-size: 18px;
     color: #d3d3d3;
@@ -821,7 +823,7 @@ body {
 
 .about__us-logo {
     position: relative;
-    background-image: url(../img/bg-img/bg1.jpg);
+    background-image: url(../img/bg-img/breadcumb1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -833,6 +835,7 @@ body {
 }
 
 .about__us-text {
+    position: relative;
     text-align: center;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
@@ -1058,3 +1061,38 @@ body {
     background-color: #2E7D32;
     color: #fff;
 }
+
+.receipies-logo{
+    position: relative;
+    background-image: url(../img/bg-img/breadcumb3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 205px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+.receipies-text {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    padding-top: 90px;
+}
+.layer {
+    background-color: rgba(20, 20, 20, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+
