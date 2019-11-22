@@ -87,5 +87,7 @@ $(function() {
             },
             1000
         );
- 
+
+    $('select').multipleSelect();
+
 });
