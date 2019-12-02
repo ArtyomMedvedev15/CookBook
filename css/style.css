@@ -1107,7 +1107,7 @@ body {
 
 .find__inner .ms-choice {
     height: 60px;
-    width: 255px;
+    width: 218px;
     padding: 0px 10px;
     border: 1px solid #e6e6e6;
 }
@@ -1120,6 +1120,7 @@ body {
 
 .find__inner .ms-choice>div.icon-caret {
     right: 30px;
+    top: 30px;
 }
 
 .find__inner input {
@@ -1127,7 +1128,7 @@ body {
     top: 1px;
     outline: none;
     height: 60px;
-    width: 255px;
+    width: 218px;
     border: 1px solid #e6e6e6;
     border-radius: 4px;
     padding: 10px 10px;
@@ -1195,8 +1196,6 @@ body {
     background-color: #2e7d32;
     color: #fff;
 }
-
-.find__receipies .container {}
 
 .pagination-wrapper {
     text-align: center;
