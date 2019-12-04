@@ -154,6 +154,31 @@
          top: 10px;
          margin-bottom: 10px;
      }
+     .contact__describe-inner {
+         display: block !important;
+     }
+     .contact__describe-text {
+         text-align: left;
+         margin-left: -23px;
+         margin-bottom: 40px;
+     }
+     .contact__describe-info {
+         margin-left: 2px;
+     }
+     .contacts__item-form-title {
+         position: relative;
+         padding-top: 30px;
+         top: 20px;
+     }
+     .contacts__item-form {
+         width: 100% !important;
+         border-top: 2px solid #2E7D32;
+         margin-bottom: 4px;
+         border-bottom: 2px solid #2E7D32;
+     }
+     .contacts__item-form-inner {
+         width: 100% !important;
+     }
  }
  
  @media (max-width: 799px),
@@ -490,3 +515,5 @@
          font-size: 12px !important;
      }
  }
+ 
+ r
