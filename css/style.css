@@ -369,7 +369,8 @@ body {
 .recipes__item .default-btn:hover,
 .gluten__inner .default-btn:hover,
 .feedback__item-form-inner .default-btn:hover,
-.contact-form__inner button:hover {
+.contact-form__inner button:hover,
+.contacts__item-form-inner .default-btn:hover {
     background-color: #2E7D32;
 }
 
@@ -675,13 +676,15 @@ body {
     text-align: left;
 }
 
-.feedback__item-form {
+.feedback__item-form,
+.contacts__item-form {
     height: 462px;
     width: 350px;
     margin-bottom: 10px;
 }
 
-.feedback__item-form-inner .default-btn {
+.feedback__item-form-inner .default-btn,
+.contacts__item-form .default-btn {
     text-align: center;
     color: #fff;
     width: 320px;
@@ -693,7 +696,8 @@ body {
     transition: all .7s;
 }
 
-.feedback__item-form-inner {
+.feedback__item-form-inner,
+.contacts__item-form-inner {
     width: 350px;
     height: 370px;
     background-image: url(../img/bg-img/bg1.jpg);
@@ -702,7 +706,8 @@ body {
     background-position: center;
 }
 
-.feedback__item-form-inner input {
+.feedback__item-form-inner input,
+.contacts__item-form-inner input {
     margin-left: 15px;
     margin-top: 30px;
     padding-top: 15px;
@@ -712,7 +717,8 @@ body {
     border-left: 4px solid #14912f;
 }
 
-.feedback__item-form-text {
+.feedback__item-form-text,
+.contacts__item-form-text {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     color: #fff;
@@ -722,7 +728,8 @@ body {
     text-align: center;
 }
 
-.feedback__item-form-title {
+.feedback__item-form-title,
+.contacts__item-form-title {
     font-size: 25px;
     line-height: 20px;
     font-family: 'Raleway', sans-serif;
@@ -1079,7 +1086,8 @@ body {
     bottom: 30px;
 }
 
-.receipies-text {
+.receipies-text,
+.contact-text {
     position: relative;
     text-align: center;
     font-size: 35px;
@@ -1277,4 +1285,98 @@ body {
     .page-numbers:nth-last-child(-n + 4)::after {
         content: none;
     }
+}
+
+.contact-logo {
+    position: relative;
+    background-image: url(../img/bg-img/breadcumb4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 205px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+.contact__describe-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__describe-text {
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+    color: #8f8e8e;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    padding-left: 25px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.contacts-logo {
+    margin-bottom: 20px;
+}
+
+.contact__describe-info {
+    position: relative;
+    margin-right: 50px;
+    bottom: 20px;
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+    color: #8f8e8e;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    width: 50%;
+}
+
+.info-address p,
+.info-phone p,
+.info-email p {
+    color: #2E7D32;
+    font-weight: 900;
+    border-bottom: 2px solid #14912f;
+    width: 84px;
+}
+
+.info-phone p {
+    width: 57px;
+}
+
+.info-email p {
+    width: 51px;
+}
+
+.contacts__item-form {
+    margin-right: 25px;
+}
+
+.contacts__item-form-inner input[placeholder] {
+    padding-bottom: 20px;
+}
+
+.connection__form {
+    margin-top: 40px;
+}
+
+.connection__form-title {
+    font-size: 30px;
+    font-family: 'Raleway', serif;
+    color: #202020;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#map {
+    margin-top: 45px;
+    width: 100%;
+    height: 400px;
+    background-color: grey;
 }
